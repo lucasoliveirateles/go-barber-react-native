@@ -13,7 +13,6 @@ import {
   SignLink,
   SignLinkText,
 } from './styles';
-// import { Container } from './styles';
 
 export default function SignIn({ navigation }) {
   const dispatch = useDispatch();

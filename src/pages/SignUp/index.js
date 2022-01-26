@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import logo from '~/assets/logo.png';
 import Background from '~/components/Background';
 import { signUpRequest } from '~/store/modules/auth/actions';
+
 import {
   Container,
   Form,
@@ -12,7 +13,6 @@ import {
   SignLink,
   SignLinkText,
 } from './styles';
-// import { Container } from './styles';
 
 export default function SignUp({ navigation }) {
   const dispatch = useDispatch();

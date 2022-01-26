@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import Background from '~/components/Background';
 import { updateProfileRequest } from '~/store/modules/user/actions';
 import { signOut } from '~/store/modules/auth/actions';
+
 import {
   Container,
   Title,

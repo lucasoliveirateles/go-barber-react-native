@@ -3,6 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   margin: 60px 0 30px;
 `;
+
 export const DateButton = styled.TouchableOpacity`
   padding: 0 15px;
   height: 46px;
@@ -12,6 +13,7 @@ export const DateButton = styled.TouchableOpacity`
   flex-direction: row;
   align-items: center;
 `;
+
 export const DateText = styled.Text`
   font-size: 14px;
   color: #fff;
